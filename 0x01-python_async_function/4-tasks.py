@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-'''Task 4 module.
+'''Task 4 alter it into a
+new function task_wait_n
 '''
 import asyncio
 from typing import List
