@@ -19,9 +19,10 @@ from fixtures import TEST_PAYLOAD
 
 
 class TestGithubOrgClient(unittest.TestCase):
-    """This method should test that GithubOrgClient.org returns the correct value.
-
-Use @patch as a decorator to make sure get_json is called once with the expected
+    """This method should test that GithubOrgClient.org
+   returns the correct value.
+Use @patch as a decorator to make sure get_json
+is called once with the expected
  argument but make sure it is not executed."""
     @parameterized.expand([
         ("google", {'login': "google"}),

@@ -48,7 +48,8 @@ class TestAccessNestedMap(unittest.TestCase):
 
 class TestGetJson(unittest.TestCase):
     """
-    Define the TestGetJson(unittest.TestCase) class and implement the 
+    Define the TestGetJson(unittest.TestCase) class and
+      implement the
     TestGetJson.test_get_json method to test that utils.get_json
       returns the expected result."""
     @parameterized.expand([
